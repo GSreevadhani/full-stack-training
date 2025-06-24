@@ -7,7 +7,6 @@ import Skills from './skills'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Services from './Pages/Services'
-import About from './Pages/About'
 import Navbar from './components/Navbar'
 import State from './hooks/State'
 import Form from './hooks/Form'
@@ -20,7 +19,6 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path ='/' element={<Home/>}/>
-        <Route path='/About' element={<About/>}/>
         <Route path='/Services' element={<Services/>}/>
         <Route path='/Welcome' element={<Welcome name='Sreevadhani' country='India'/>}/>
         <Route path='/Skills' element={<Skills skill={['MongoDb','Express','React','NodeJS']}/>}/>
