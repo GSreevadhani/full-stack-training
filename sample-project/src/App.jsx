@@ -26,7 +26,7 @@ function App() {
         <Route path='/form' element={<Form/>}/>
         <Route path='/effect' element={<Effect/>}/>
       </Routes>
-      <h1>Hello World</h1> 
+      <h1>Hi, this page is being deployed using vercel</h1> 
     </>
   )
 }
