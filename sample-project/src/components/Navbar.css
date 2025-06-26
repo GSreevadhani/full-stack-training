@@ -5,8 +5,7 @@
     left: 0;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: #333;
     font-size: xx-large;
     padding: 10px;
     font-family: Georgia, 'Time New Roman', Times, serif;
@@ -15,11 +14,11 @@
 }
 .navbar li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navbar li a:hover{
-    color: brown;
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 li{
     list-style: none;
